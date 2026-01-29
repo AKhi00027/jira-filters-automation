@@ -1,0 +1,5 @@
+tests/JiraFiltersTest.class
+pages/FiltersPage.class
+pages/AtlassianLoginPage.class
+tests/LoginTest.class
+base/BaseTest.class
