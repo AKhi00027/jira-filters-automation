@@ -24,4 +24,7 @@ for external integrations.
 3. Clone the repository
 
 ```bash
-mvn clean install
+Jira Cloud uses Atlassian SSO, which introduces non-deterministic redirects, CAPTCHA, and MFA.
+UI login tests are intentionally limited to validation scenarios.
+Authenticated flows rely on session reuse or pre-authenticated environments.
+
